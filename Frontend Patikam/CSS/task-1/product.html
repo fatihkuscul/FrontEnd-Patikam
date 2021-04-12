@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz - CSS - 1. Ödev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Başlangıç-->
+    <nav>
+        
+            <h1 class="h-red">Müzik Dükkanım</h1>
+            <hr>
+            <a href="index.html" class="a-nav p-10">
+                - Ana Sayfa -
+            </a>
+
+            <a href="product.html" class="a-nav p-10">
+                - Ürünlerimiz -
+            </a>
+
+            <a href="about.html" class="a-nav p-10">
+                - Hakkımızda -
+            </a>
+            <hr>
+            <h2 class="h-slateblue">Ürünlerimiz</h2>
+        
+    </nav>
+    <!-- Navigation Bitiş-->
+
+    <!-- Ürün Listesi Başlangıç -->
+    <ol class="ortala">
+        <li class="b1 container m-10">
+            <img src="https://cdn03.ciceksepeti.com/cicek/kcx13149642/XL/kisiye-ozel-siyah-klasik-gitar-kcx13149642-ababc03b-26b0-4164-8a84-2dcc7486ac2b.jpg"
+            alt="Gitar Fotosu"
+            title="Gitar Fotosu"
+            width="300">
+            <p class="b2 box p-5">
+                Siyah Klasik Gitar <br>
+                Fiyatı: <strong>1000 ₺</strong>
+            </p>
+        </li>
+        <li class="b1 container m-10">
+            <img src="https://www.do-re.com.tr/sx-stratocaster-3-4-elektro-gitar-siyah-8f1d86ac87ad209a53276a9eac87a611-5e3e9d1f4fa54da4a5fcbc5124382ebf-max-pp.jpg"
+            alt="Gitar Fotosu"
+            title="Gitar Fotosu"
+            width="300">
+            <p class="b2 box p-5">
+                Siyah Elektro Gitar <br>
+                Fiyatı: <strong>1500 ₺</strong>
+            </p>
+        </li>
+        <li class="b1 container m-10">
+            <img src="https://www.do-re.com.tr/yamaha-mb6322-bando-bas-davul-5851de69ce2cdbb45606b7b6a4c1975f-3092be25e6c00873862ba89c349de79a-max-pp.jpg"
+            alt="Davul Fotosu"
+            title="Davul Fotosu"
+            width="300">
+            <p class="b2 box p-5">
+                Yamaha Bas Davul <br>
+                Fiyatı: <strong>2000 ₺</strong>
+            </p>
+        </li>
+        <li class="b1 container m-10">
+            <img src="https://www.do-re.com.tr/yamaha-gb1-akustik-kuyruklu-piyano-parlak-siyah-cce51c1f066f575b7d9a21f9f985bb02-12622d3632fb8eb8cb92c2028a5434e8-max-pp.jpg"
+            alt="Piyano Fotosu"
+            title="Piyano Fotosu"
+            width="300"
+            class="m-5">
+            <p class="b2 box p-5">
+                Yamaha Siyah Piyano <br>
+                Fiyatı: <strong>5000 ₺</strong>
+            </p>
+        </li>
+        <li class="b1 container m-10">
+            <img src="data:image/jpeg;base64,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1RRf+WeOFxmMqK2bD0qTcFBcOfMgEfKcem9FVbWqJcNcm1MX6gnoZJPtmtiGRhUFIGm1snBja+p9Jndsxnb1rNFuXJZUu1LGZlFR0ClgAEUZnJNgoBJtfz0llbGwXYUlQ2vxa3C55X52AAv4Siztsq5HaupHxFjY+hMsHcTfRcQxoVT3ltZuTA6XXw1F/OTr2e/6sV26rh9yrFiImrEiJE7f2mcNSZkQvUOlNFFyzEgDQa5QSCTAgd9NomqybPoORUrFRUYamnSPH1IB9L9ZMbN2Th1w4w9JR2ARk+0TcMxPM3vr18pwGD3WxtTFgYgOrM2epVBBUqfeCsPiv3QOQ5aS1qNIIAqiwAAA8BKztWyknOPznvRsGpgK7UnBK3JptydORB6jgRyPpIa0/TG2dj4fGIaeIphl4jkynqrDUGV7tL2Si5OGxNhyWot7fxrb8JZVVVOplJ6DUfn/AH4yZwWOVtBoZ0Vb2UY++lTDN/E4/RJPd/2W1krU3xNSiUVrsi52zD6pJAAEz2a5lG+ndcK57A4atiXCUKbOx6cF8Wbgo85cG6+xFwdHLfM7HNUbq1uA8BwEk8LhKdJQtNFReigAfITYldeqY+Tdvy2ePiMxETZg4L2i7Q+hhK1Sm1Si5CPkIzI4BK3DaFWF+YsRzvOOw2/OAFv2ddBfhlQj+Uy58RQSopSoiurCzKwBUjoQdDOfrbg7JfjgaI+yGX+kiBW2P21svGIyVMW6ZnDXNNwQQdOREjMHs3Zq1Ff/AGnSYA3AdSDcWy6k20seXSWVW9lmyW4Uai/Zq1P1MZoVvY/s8+5WxK/xI39SSORPbziJahg61lfGYd0J765wMy9Lg6TS2nu1hlOfAtRKkd6nnUm4+JCx9CL8hJWt7GKJ9zG1R9pKbfhaRmL9jNaw7PF0mP7yMl+lyC2sjLGZTlThncMux44bAVlRlTBkuRox7Ow62u2pt0nlU2FjWodsyKGAuaakGplW4ABKkXt8IM9aPsix6g2xVAHlZqmg9Fnovsu2svu42n/5K4/TM5pxb31WaOfAVHpMXpMrlSAxQgnpfQC8+dyMDWFc1HpuiIjBiwIBJFgq/W16SU/4ebcX3cYh/wC9V/yTpNz9ysZRrLX2hiu07O5p01d2XMRbOxYDgL2FuOt5bXr9nxVNu7/052LCpXyrfjYX87axPSJoxJr1MNTZldkUst8pIBK342PK82IgYmYiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgf/2Q=="
+            alt="Keman Fotosu"
+            title="Keman Fotosu"
+            width="300"
+            class="m-5">
+            <p class="b2 box p-5">
+                Klasik Keman <br>
+                Fiyatı: <strong>2000 ₺</strong>
+            </p>
+        </li>
+    </ol>
+    <!-- Ürün Listesi Bitiş -->
+
+    
+</body>
+</html>

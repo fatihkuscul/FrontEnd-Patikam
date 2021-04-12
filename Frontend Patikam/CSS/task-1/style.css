@@ -1,0 +1,70 @@
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+section,nav,article,.ortala{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.h-red{
+    color: rgb(223, 8, 8);
+}
+
+.h-slateblue{
+    color: rgb(84, 64, 197);
+}
+
+.h-gold{
+    color: rgb(211, 146, 4);
+}
+
+.a-nav{
+    text-decoration: none;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.m-10{
+    margin: 10px;
+}
+
+.m-5{
+    margin: 5px;
+}
+.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b1{
+    border-style: solid;
+    border-color: rosybrown;
+    border-radius: 10px;
+}
+
+.b2{
+    border-style: solid;
+    border-color: rgb(33, 3, 139);
+    border-radius: 10px;
+}
