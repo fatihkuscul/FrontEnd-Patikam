@@ -1,0 +1,43 @@
+body{
+    background-color: #E9ECEF;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+li{
+    list-style-position: inside;
+}
+
+ol li:hover{
+    cursor: pointer;
+    background-color: #bbc0c5;
+}
+
+.hgtAuto{
+    height: 100%;
+}
+
+.boy300{
+    height: 300px;
+    width: auto;
+}
+
+.img-auto{
+    height: 100%;
+    width: 100%;
+}
+
+
+.bgGrey{
+    background-color: #E9ECEF;
+}
+
+.text-Mor{
+    color: slateblue;
+}
+
+section,nav,article,.ortala{
+    text-align: center;
+}
