@@ -38,8 +38,16 @@ img {
 
 /* Yeni Eklendi */ 
 .saatRengi{
-  border-left: 2px solid orangered;
-  border-right: 2px solid orangered;
+  border-left: 3px solid orangered;
+  border-right: 3px solid orangered;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.saatRengi2{
+  border-left: 3px solid aqua;
+  border-right: 3px solid aqua;
   border-radius: 30px;
   padding-left: 15px;
   padding-right: 15px;
