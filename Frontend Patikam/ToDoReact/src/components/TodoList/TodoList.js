@@ -10,9 +10,8 @@ class TodoList extends React.Component {
         <ul>
           {this.props.todos.map((todo) => {
             return (
-              <li className={"list-group-item"} >
-                <TodoItem {...todo} 
-                key={todo.id} 
+              <li className={"list-group-item"} key={todo.id} >
+                <TodoItem {...todo}                 
                 deleteTaskProp={this.props.silProps}/>               
               </li>
             );
