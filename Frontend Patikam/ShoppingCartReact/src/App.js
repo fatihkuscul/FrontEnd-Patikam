@@ -16,6 +16,7 @@ function App() {
     ],
     itemCount: 0,
   });
+
   const handleIncrement = (product) => {
     // cart array'inin kopyasını oluştur
     const cart = [...carts.cart];
@@ -42,8 +43,10 @@ function App() {
   const getItemCount = (cart) => {
     // Sepetteki toplam ürün sayısını bul
     let itemCount = cart.reduce((total, product) => total + product.value, 0);
+    
     return itemCount;
   };
+
   return (
     <div className="App">
       <Navbar totalItems={carts.itemCount} />
